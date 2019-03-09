@@ -1,0 +1,40 @@
+
+* {
+  transition: 150ms ease-in-out;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-open {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.active-block {
+  display: block !important;
+}
+
+.active-flex {
+  display: flex !important;
+}
+
+.active-flex-column {
+  display: flex !important;
+  flex-direction: column;
+}

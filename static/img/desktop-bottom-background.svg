@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1378px" height="686px" viewBox="0 0 1378 686" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Desktop Background Footer</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M901.630672,106.035412 C1164.5308,106.035412 1225.14423,127.130115 1427.43094,292.614969 C1629.71764,458.099824 1661.48177,512.249046 1707.20341,765.050991 C1752.92505,1017.85294 1740.98035,1081.1729 1610.03945,1302.28541 C1479.09856,1523.39792 1427.72849,1565.53204 1181.40315,1652.94028 C1083.25698,1687.76732 911.869623,1980.58246 732.571344,1984.77289 C461.870295,1991.09953 458.348032,1836.79957 331.899312,1745.88589 C316.532979,1734.83786 180.706835,1656.76217 149.196385,1591.46386 C117.685935,1526.16555 331.055918,1525.25386 179.036191,1464.05081 C135.059737,1446.34591 156.028021,1372.53035 193.221892,1302.28541 C322.270111,1058.56289 205.169913,1015.8002 96.05793,765.050991 C-13.0540532,514.301783 175.330738,456.637904 375.830407,292.614969 C576.330076,128.592034 638.73054,106.035412 901.630672,106.035412 Z" id="path-1"></path>
+        <filter x="-1.0%" y="-0.9%" width="102.0%" height="101.8%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="5" operator="erode" in="SourceAlpha" result="shadowSpreadInner1"></feMorphology>
+            <feGaussianBlur stdDeviation="11" in="shadowSpreadInner1" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="-7" dy="3" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.0549019608   0 0 0 0 0.0784313725   0 0 0 0 0.156862745  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <path d="M974.641591,56 C1237.54172,56 1298.15515,77.0947021 1500.44186,242.579557 C1702.72856,408.064411 1734.49269,462.213633 1780.21433,715.015578 C1825.93597,967.817523 1813.99126,1031.13749 1683.05037,1252.25 C1552.10948,1473.36251 1500.73941,1515.49663 1254.41407,1602.90487 C1008.08873,1690.3131 901.547324,2037.78528 653.782035,1949.86608 C477.426875,1887.28668 420.693014,1481.91214 252.047111,1414.01539 C208.070656,1396.3105 229.038941,1322.49493 266.232811,1252.25 C395.28103,1008.52748 278.180833,965.764786 169.068849,715.015578 C59.9568664,464.266371 248.341658,406.602491 448.841327,242.579557 C649.340996,78.556622 711.741459,56 974.641591,56 Z" id="path-3"></path>
+        <filter x="-2.1%" y="-2.1%" width="105.1%" height="104.5%" filterUnits="objectBoundingBox" id="filter-4">
+            <feMorphology radius="3" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="7" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="10" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.0549019608   0 0 0 0 0.0784313725   0 0 0 0 0.156862745  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-HD" transform="translate(0.000000, -3814.000000)">
+            <g id="Desktop-Background-Footer" transform="translate(446.372681, 4778.626916) scale(-1, -1) rotate(-40.000000) translate(-446.372681, -4778.626916) translate(-488.127319, 3758.126916)">
+                <g id="Polygon-Copy" transform="translate(897.716759, 1045.498472) rotate(-4.000000) translate(-897.716759, -1045.498472) ">
+                    <use fill="#AFBFC0" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                </g>
+                <g id="Polygon" transform="translate(970.727679, 1010.000494) rotate(-4.000000) translate(-970.727679, -1010.000494) ">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                    <use fill="#AFBFC0" fill-rule="evenodd" xlink:href="#path-3"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

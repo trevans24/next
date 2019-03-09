@@ -1,0 +1,103 @@
+
+*, html {
+  font-family: $primary-font;
+}
+
+// SIZING
+h1 {
+  color: $eerie-black;
+  font-family: $primary-font;
+  font-weight: $bold;
+  font-size: 48px;
+  letter-spacing: 0.5px;
+  line-height: 56px;
+
+  @include mediaQuery(max, $mobile) {
+    font-size: 36px;
+    letter-spacing: 0.5px;
+    line-height: 42px;
+  }
+}
+
+h2 {
+  color: $eerie-black;
+  font-family: $primary-font;
+  font-style: italic;
+  font-size: 36px;
+  font-weight: $medium;
+  letter-spacing: 0.5px;
+  line-height: 42px;
+
+  @include mediaQuery(max, $mobile) {
+    font-size: 28px;
+    line-height: 36px;
+  }
+}
+
+h3 {
+  color: $eerie-black;
+  font-family: $primary-font;
+  font-size: 36px;
+  font-weight: $regular;
+  letter-spacing: 0.5px;
+  line-height: 42px;
+
+  @include mediaQuery(max, $mobile) {
+    font-size: 28px;
+    line-height: 36px;
+  }
+}
+
+p {
+  font-family: inherit;
+  font-size: 28px;
+  letter-spacing: 0.31px;
+  line-height: 40px;
+  margin: 0;
+  padding: 0;
+
+  @include mediaQuery(max, $mobile) {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+
+a {
+  font-size: 32px;
+  letter-spacing: 0.5px;
+  line-height: 34px;
+  text-decoration: none;
+}
+
+li {
+  font-family: inherit;
+  line-height: 1.2;
+}
+
+// Classes
+.title {
+  color: $eerie-black;
+  display: block;
+  font-family: $primary-font;
+  font-style: italic;
+  font-size: 36px;
+  font-weight: $medium;
+  letter-spacing: 0.5px;
+  line-height: 42px;
+
+  @include mediaQuery(max, $mobile) {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  @include mediaQuery(max, $smMobile) {
+    font-size: 24px;
+    line-height: 30px;
+  }
+}
+
+.subtitle {
+  @extend .title;
+  font-style: normal;
+  font-weight: $regular;
+}

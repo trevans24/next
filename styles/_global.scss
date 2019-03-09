@@ -1,0 +1,18 @@
+
+:root {
+  @include mediaQuery(max, 2560px) {
+    font-size: 20px;
+  }
+
+  @include mediaQuery(max, 1440px) {
+    font-size: 18px;
+  }
+
+  @include mediaQuery(max, 1024px) {
+    font-size: 16px;
+  }
+
+  @include mediaQuery(max, 425px) {
+    font-size: 18px;
+  }
+}

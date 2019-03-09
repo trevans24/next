@@ -1,0 +1,66 @@
+
+@import '../../styles.scss';
+
+.home-hero {
+  background-image: url('../../static/img/desktop-top-background.png');
+  background-position: top right;
+  background-repeat: no-repeat;
+  height: 1450px;
+
+  @include mediaQuery(max, 1140px) {
+    background-image: url('../../static/img/tablet-top-background.png');
+  }
+
+  @include mediaQuery(max, $tablet) {
+    height: 150vh;
+  }
+
+  @include mediaQuery(max, $mobile) {
+    background-image: url('../../static/img/mobile-top-background.png');
+  }
+}
+
+.title-wrapper {
+  border-left: 1px solid $primary;
+  left: 100px;
+  padding-left: 20px;
+  position: absolute;
+  top: 75%;
+  transform: translateY(-75%);
+  width: 435px;
+
+  @include mediaQuery(max, $smDesktop) {
+    left: 25px;
+    top: 575px;
+  }
+
+  @include mediaQuery(max, $tablet) {
+    left: 5%;
+    top: 600px;
+  }
+
+  @include mediaQuery(max, $mobile) {
+    left: 3%;
+    top: 500px;
+    width: 330px;
+  }
+
+  @include mediaQuery(max, 340px) {
+    width: 90%;
+  }
+}
+
+.name {
+  color: $secondary;
+  font-family: $primary-font;
+  font-weight: $bold;
+  font-size: 48px;
+  letter-spacing: 0.5px;
+  line-height: 56px;
+
+  @include mediaQuery(max, $mobile) {
+    font-size: 36px;
+    letter-spacing: 0.5px;
+    line-height: 42px;
+  }
+}

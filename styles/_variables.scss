@@ -1,0 +1,46 @@
+
+@import url("https://fonts.googleapis.com/css?family=Raleway:100,100i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+
+// Font Sizing
+$font-size-base: 1rem !default;
+$font-size-lg: ($font-size-base * 1.25) !default;
+$font-size-sm: ($font-size-base * 0.875) !default;
+
+// Fonts
+$primary-font: 'Raleway', sans-serif;
+$primary-font-italic: 'Raleway-Italic', sans-serif;
+$primary-font-thin: 'Raleway-Thin', sans-serif;
+$primary-font-thin-italic: 'Raleway-ThinItalic', sans-serif;
+$primary-font-light: 'Raleway-Light', sans-serif;
+$primary-font-light-italic: 'Raleway-LightItalic', sans-serif;
+$primary-font-medium: 'Raleway-Medium', sans-serif;
+$primary-font-medium-italic: 'Raleway-MediumItalic', sans-serif;
+$primary-font-bold: 'Raleway-Bold', sans-serif;
+$primary-font-bold-italic: 'Raleway-BoldItalic', sans-serif;
+$primary-font-black: 'Raleway-Black', sans-serif;
+$primary-font-black-italic: 'Raleway-BlackItalic', sans-serif;
+
+$thin: 100;
+$light: 300;
+$regular: 400;
+$medium: 500;
+$bold: 600;
+$black: 800;
+
+// Gutters
+$gutter: 1rem;
+
+// Screen Widths
+$lgDesktop: 1440px;
+$desktop: 1280px;
+$smDesktop: 1024px;
+$tablet: 1000px;
+$mobile: 650px;
+$smMobile: 375px;
+
+// Line Heights
+$line-height-base: .5rem !default;
+$line-height-sm: ($line-height-base * 0.875) !default;
+
+// Sections
+$section-padding: 4rem 2rem;

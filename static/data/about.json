@@ -1,0 +1,217 @@
+{
+	"nav": {
+		"links": [
+			{
+				"name": "Projects",
+				"url": "/projects"
+			}
+		]
+	},
+	"hero": {
+		"name": "Troy Evans",
+		"title": "full stack web developer",
+		"subtitle": "Stationed in Denver, CO"
+	},
+	"bio": [
+		"Denver native who has always been fascinated with technology and design. I never truely found how to use my interest for technology until I found web development. So I took the initiative to invest in returning to school to learn the skills that enabled me to achieve that goal.",
+		"My professional objective is to work in a multi-discipline creative team to co-develop products which attract, influence and assist people in major ways."
+	],
+	"contact": [
+		{
+			"link": "trevans24@gmail.com",
+			"name": "email"
+		},
+		{
+			"link": "https://github.com/trevans24",
+			"name": "github"
+		},
+		{
+			"link": "https://codepen.io/trevans24/",
+			"name": "codepen"
+		},
+		{
+			"link": "https://www.linkedin.com/in/troy-evans24/",
+			"name": "linkedin"
+		}
+	],
+  "experience" : [
+		{
+      "company": "Spire Digital",
+			"date_from": "Sept 2017",
+			"date_to": "Present",
+      "website": "https://www.spiredigital.com",
+      "description": "Front End Developer",
+      "projects": [
+				{
+          "name": "Achroma",
+					"description": "Mortgage loan website to help prevent racial bias on loan approval",
+          "url": "coming soon",
+					"stack": [
+						"react",
+						"sass"
+					],
+					"dates": "10/2018 - 2/2019"
+        },
+				{
+          "name": "Alumia",
+					"description": "Develop a front-end UI for a client to help track data on alzheimers",
+          "url": "coming soon",
+					"stack": [
+						"react",
+						"gulp"
+					],
+					"dates": "8/2018 - 10/2018"
+        },
+        {
+          "name": "CoBank",
+					"description": "Develop a front-end UI for integratation with a CMS system",
+          "url": "https://cobank.com",
+					"stack": [
+						"html5",
+						"sass",
+						"javascript"
+					],
+					"dates": "1/2018 - 2/2018"
+        },
+        {
+          "name": "Cochlear",
+					"description": "Help update and fix bugs for their doctor finder and new product N7",
+          "url": "https://www.cochlear.com/us/home",
+					"stack": [
+						"angularjs"
+					],
+					"dates": "5/2018 - 6/2018"
+        },
+        {
+          "name": "Denver International Airport",
+					"description": "Help update and fix bugs on front-end",
+          "url": "https://flydenver.com",
+					"stack": [
+						"angularjs"
+					],
+					"dates": "10/2017 - 1/2018"
+        },
+				{
+          "name": "Health E-Careers",
+					"description": "Front End support, updating and logic for salary calculator",
+          "url": "http://www.healthecareers.com/salary",
+					"stack": [
+						"html5",
+						"sass",
+						"javascript",
+						"php"
+					],
+					"dates": "10/2017 - 8/2018"
+        },
+        {
+          "name": "Helix",
+					"description": "Front End UI development for a web app involving human genomics",
+          "url": "https://www.helix.com/",
+					"stack": [
+						"react",
+						"docker"
+					],
+					"dates": "5/2018 - Present"
+        },
+				{
+          "name": "INEO",
+					"description": "The project was developed to help them 'Unlock' clients for usage in handling day to day. Allowed for access to client information to help with the client housing move and forms associated",
+          "url": "https://www.ineomobility.com/",
+					"stack": [
+						"angularjs"
+					],
+					"dates": "9/2017 - 10/2017"
+        },
+        {
+          "name": "Lockheed Martin",
+					"description": "Web Application React Component Library",
+          "url": "coming soon",
+					"stack": [
+						"react"
+					],
+					"dates": "12/2017 - 2/2018"
+        },
+        {
+          "name": "Monarch Mountain",
+					"description": "Wordpress Site for Monarch Mountain",
+          "url": "https://skimonarch.com",
+					"stack": [
+						"wordpress",
+						"php",
+						"gulp",
+						"sass",
+						"jquery"
+					],
+					"dates": "1/2018 - 5/2018"
+        },
+				{
+          "name": "Parsyl",
+					"description": "Marketing Website",
+          "url": "https://www.parsyl.com",
+					"stack": [
+						"html5",
+						"sass",
+						"gulp",
+						"jquery"
+					],
+					"dates": "8/2018 - 10/2018"
+        },
+        {
+          "name": "Planomatic",
+					"description": "Web app to help schedule services for realtors",
+          "url": "https://www.planomatic.com/",
+					"stack": [
+						"angularjs",
+						"sass"
+					],
+					"dates": "3/2018 - 5/2018"
+        },
+				{
+          "name": "The Possibility Pool",
+					"description": "Marketing website",
+          "url": "https://thepossibilitypool.com/",
+					"stack": [
+						"html5",
+						"gulp",
+						"sass",
+						"javascript"
+					],
+					"dates": "10/2017 - 2/2018"
+        },
+        {
+          "name": "Speerz",
+					"description": "Frontend Support",
+          "url": "http://www.speerz.com/",
+					"stack": [
+						"angularjs"
+					],
+					"dates": "10/2017 - 11/2017"
+        },
+        {
+          "name": "WOW!",
+					"description": "Description: Frontend UI Development for integration with CMS system",
+          "url": "https://www.wowway.com/",
+					"stack": [
+						"html5",
+						"sass",
+						"jquery"
+					],
+					"dates": "4/2018 - Present"
+        }
+      ]
+    },
+		{
+			"company": "The Kinetic Foot",
+			"date_from": "June 2018",
+			"date_to": "Dec 2018",
+			"website": "https://www.thekineticfoot.com",
+      "description": "Front End Developer"
+		},
+		{
+			"company": "General Assembly",
+			"date_from": "Mar 2017",
+			"date_to": "July 2017",
+      "description": "Web Development Imersive Student"
+		}
+  ]
+}
